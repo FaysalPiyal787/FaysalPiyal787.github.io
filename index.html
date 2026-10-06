@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faysal Hossain Piyal - Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Faysal Hossain Piyal, a Computer Science student focusing on cybersecurity."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Schibsted+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="nav-content">
+        <a href="#home" class="logo">Faysal</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Hero -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>Faysal Hossain Piyal</h1>
+          <p class="tagline">
+            Computer Science student and
+            <span class="redact"><span>aspiring cybersecurity professional</span></span>
+          </p>
+          <p class="intro">
+            I learn how systems fail so I can build ones that hold up.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View my work</a>
+            <a href="#contact" class="btn btn-secondary">Contact me</a>
+          </div>
+        </div>
+        <figure class="hero-image">
+          <img src="images/profile.webp" alt="Portrait of Faysal Hossain Piyal" />
+        </figure>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="split">
+        <h2 class="section-title">About me</h2>
+        <div class="about-content">
+          <p class="lead">
+            I'm a third-year Computer Science student at Effat University,
+            focusing on cybersecurity.
+          </p>
+          <p>
+            My journey in tech began when I became fascinated by the
+            double-edged nature of our digital world. I was captivated by how
+            deeply interconnected our devices are, but also aware of how
+            vulnerable this makes us to data breaches and cyber attacks. That
+            realization sparked a passion for cybersecurity. Since then, I have
+            been constantly learning how to protect these connections and stay
+            one step ahead of emerging threats.
+          </p>
+          <ul class="about-info">
+            <li><i class="fas fa-graduation-cap"></i> BSc Computer Science</li>
+            <li><i class="fas fa-map-marker-alt"></i> Jeddah, Saudi Arabia</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="split">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Programming languages</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">SQL</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-laptop-code"></i> Web development</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Node.js</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-shield-halved"></i> Security</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Wireshark</span>
+              <span class="skill-tag">Nmap</span>
+              <span class="skill-tag">Linux</span>
+              <span class="skill-tag">Cryptography</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="project-list">
+          <li class="project">
+            <article>
+              <div class="project-head">
+                <h3>Packet Sniffer</h3>
+                <p class="project-year">2025</p>
+              </div>
+              <p class="project-desc">
+                A command-line tool that captures network traffic, breaks it
+                down by protocol, and flags suspicious patterns like port scans.
+              </p>
+              <div class="project-tech"><span>Python</span><span>Scapy</span></div>
+              <div class="project-links">
+                <a href="#"><i class="fab fa-github"></i> Code</a>
+                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+              </div>
+            </article>
+          </li>
+          <li class="project">
+            <article>
+              <div class="project-head">
+                <h3>Password Auditor</h3>
+                <p class="project-year">2025</p>
+              </div>
+              <p class="project-desc">
+                Checks passwords against common leak patterns and estimates how
+                long they would take to crack, with clear advice on fixing them.
+              </p>
+              <div class="project-tech"><span>JavaScript</span><span>Node.js</span></div>
+              <div class="project-links">
+                <a href="#"><i class="fab fa-github"></i> Code</a>
+                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+              </div>
+            </article>
+          </li>
+          <li class="project">
+            <article>
+              <div class="project-head">
+                <h3>Encrypted Chat</h3>
+                <p class="project-year">2026</p>
+              </div>
+              <p class="project-desc">
+                A real-time messaging app with end-to-end encryption, so only
+                the people in a conversation can read it.
+              </p>
+              <div class="project-tech"><span>React</span><span>Node.js</span><span>WebSockets</span></div>
+              <div class="project-links">
+                <a href="#"><i class="fab fa-github"></i> Code</a>
+                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+              </div>
+            </article>
+          </li>
+          <li class="project">
+            <article>
+              <div class="project-head">
+                <h3>Vulnerability Dashboard</h3>
+                <p class="project-year">2026</p>
+              </div>
+              <p class="project-desc">
+                Collects scan results in one place and ranks findings by
+                severity, so the most urgent fixes are always at the top.
+              </p>
+              <div class="project-tech"><span>Python</span><span>Flask</span><span>SQL</span></div>
+              <div class="project-links">
+                <a href="#"><i class="fab fa-github"></i> Code</a>
+                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact">
+        <h2 class="section-title">Get in touch</h2>
+        <p class="contact-lead">I'm currently looking for opportunities.</p>
+        <a href="mailto:faysalhossainpiyal@gmail.com" class="contact-mail">
+          faysalhossainpiyal@gmail.com
+        </a>
+        <div class="contact-methods">
+          <a href="https://linkedin.com/in/faysal-hossain-piyal" class="contact-item">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/FaysalPiyal787" class="contact-item">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year">2026</span> Faysal Hossain Piyal</p>
+      <div class="social-links">
+        <a href="https://github.com/FaysalPiyal787" class="social-link" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/faysal-hossain-piyal" class="social-link" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:faysalhossainpiyal@gmail.com" class="social-link" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
